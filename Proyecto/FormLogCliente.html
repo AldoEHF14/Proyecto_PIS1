@@ -1,0 +1,19 @@
+<div class="w3-card-4 w3-khaki w3-round-large w3-margin w3-padding-large">
+    <div class="w3-container">
+        <h2>Iniciar Sesion Cliente</h2>
+    </div>
+    <form action="IniciarSesion.php" method="POST" class="formulario" enctype="multipart/form-data">
+        <div>
+            <label for="Correo">Correo</label>
+            <input type="email" placeholder="pepe@pepe.com" id="Correo" name="Correo" required />     
+        </div>
+        <br/>
+        <div class="Contrasenia">
+            <label for="Contrasenia">Contraseña</label>
+            <input type="password" placeholder="****" id="Contrasenia" name="Contrasenia" required />
+        </div>
+        <input type="hidden" value="Cliente" id="Origen" name="Origen"/>
+        <br/>
+    <input type="submit" value="Realiza registro" id="Enviar" name="Enviar" class="w3-button w3-dark-grey w3-round-xlarge"/>
+    </form>
+</div>

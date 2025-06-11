@@ -1,0 +1,39 @@
+<div class="w3-card-4 w3-khaki w3-round-large w3-margin w3-padding-large">
+    <div class="w3-container ">
+        <h2>Registro Cliente</h2>
+    </div>
+    <form action="Registrar.php" method="POST" class="formulario" enctype="multipart/form-data">
+        <div>
+            <label for="Correo">Correo</label>
+            <input type="email" placeholder="pepe@pepe.com" id="Correo" name="Correo" required />     
+        </div>
+        <br/>
+        <div class="Contrasenia">
+            <label for="Contrasenia">Contraseña</label>
+            <input type="password" placeholder="****" id="Contrasenia" name="Contrasenia" required />
+        </div>
+        <br/>
+        <div class="Nombre">
+            <label for="Nombre">Nombre</label>
+            <input type="text" placeholder="pepe" id="Nombre" name="Nombre" required />
+        </div>
+        <br/>
+        <div class="Fecha">
+            <label for="Fecha_Nacimiento">Fecha Nacimiento</label>
+            <input type="date" id="Fecha_Nacimiento" name="Fecha_Nacimiento" />
+        </div>
+        <br/>
+        <div class="Numero">
+            <label for="Numero_Telefonico">Numero Telefonico</label>
+            <input type="text" id="Numero_Telefonico" name="Numero_Telefonico" />
+        </div>
+        <br/>
+        <div class="Imagen">
+            <label for="Imagen">Imagen:</label>
+            <input type="file" id="Imagen" name="Imagen" />
+        </div>
+        <input type="hidden" value="Cliente" id="Origen" name="Origen"/>
+        <br/>
+    <input type="submit" value="Realiza registro" id="Enviar" name="Enviar" class="w3-button w3-dark-grey w3-round-xlarge"/>
+    </form>
+</div>

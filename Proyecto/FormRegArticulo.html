@@ -1,0 +1,44 @@
+<div class="w3-card-4 w3-khaki w3-round-large w3-margin w3-padding-large">
+    <div class="w3-container ">
+        <h2>Registro Articulo</h2>
+    </div>
+    <form action="RegistrarProducto.php" method="POST" class="formulario" enctype="multipart/form-data">
+        <div class="Nombre">
+            <label for="Nombre">Nombre: </label>
+            <input type="text" placeholder="Camisa blanca para niño" id="Nombre" name="Nombre" required />
+        </div>
+        <br/>
+        <div class="Marca">
+            <label for="Marca">Marca: </label>
+            <input type="text" placeholder="Pull and bear" id="Marca" name="Marca" required />
+        </div>
+        <br/>
+        <div class="Talla">
+            <label for="Talla">Talla: </label>
+            <input type="text" placeholder="23" id="Talla" name="Talla" required />
+        </div>
+        <br/>
+        <div class="Precio">
+            <label for="Precio">Precio: $</label>
+            <input type="text" placeholder="15.3" id="Precio" name="Precio" required />
+        </div>
+        <br/>
+        <div>
+            <label for="Linea">Linea: </label>
+            <input type="text" placeholder="Verano" id="Linea" name="Linea" required />
+        </div>
+        <br/>
+        <div>
+            <label for="Existencia">Cantidad Existencias:</label>
+            <input type="number" placeholder="15" id="Existencia" name="Existencia" required />
+        </div>
+        <br/>
+        <div>
+            <label for="Imagen">Imagen: </label>
+            <input type="file" id="Imagen" name="Imagen" required />
+        </div>
+        <br/>
+        <input type="submit" value="Realiza registro" id="Enviar" name="Enviar" class="w3-button w3-dark-grey w3-round-xlarge"/>
+        <!--Esto es un comentario-->
+    </form>
+</div>
