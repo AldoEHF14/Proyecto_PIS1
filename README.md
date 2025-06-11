@@ -70,7 +70,7 @@ El sistema contempla múltiples perfiles de usuario, cada uno con funcionalidade
 ---
 
 ## 🗂️ Estructura del repositorio
-![Logo del proyecto](img/estructura del archivo.png)
+![Logo del proyecto](img/estructura del proyecto.png)
 
 ---
 
