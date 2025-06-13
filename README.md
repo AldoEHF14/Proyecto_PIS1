@@ -41,7 +41,7 @@ El sistema contempla múltiples perfiles de usuario, cada uno con funcionalidade
 
 ---
 
-## 🧱 Arquitectura del sistema
+## 📚 Arquitectura del sistema
 
 - 🧭 **Arquitectura lógica**: patrón **Model-View-Controller (MVC)**
 - 🌐 **Arquitectura física**: Cliente-servidor
