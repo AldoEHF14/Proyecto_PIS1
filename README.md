@@ -69,11 +69,6 @@ El sistema contempla múltiples perfiles de usuario, cada uno con funcionalidade
 
 ---
 
-## 🗂️ Estructura del repositorio
-![Logo del proyecto](img/estructura.png)
-
----
-
 ## 🧪 Requisitos no funcionales
 
 - ⏱️ Tiempo de respuesta bajo
