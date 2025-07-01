@@ -41,15 +41,6 @@ El sistema contempla múltiples perfiles de usuario, cada uno con funcionalidade
 
 ---
 
-## 📚 Arquitectura del sistema
-
-- 🧭 **Arquitectura lógica**: patrón **Model-View-Controller (MVC)**
-- 🌐 **Arquitectura física**: Cliente-servidor
-- 💾 **Base de datos relacional**: para almacenar artículos, usuarios, pagos, etc.
-- 🔐 Seguridad implementada mediante autenticación y cifrado de contraseñas
-
----
-
 ## 🖥️ Interfaces destacadas
 
 - `IPrincipal`: interfaz de bienvenida y navegación inicial
