@@ -41,15 +41,6 @@ El sistema contempla múltiples perfiles de usuario, cada uno con funcionalidade
 
 ---
 
-## 🖥️ Interfaces destacadas
-
-- `IPrincipal`: interfaz de bienvenida y navegación inicial
-- `ICliente`, `IProveedor`, `IAdministrador`: paneles separados según tipo de usuario
-- `ICarritoCompras`, `IPago`, `IDatosEnvio`: componentes funcionales del proceso de compra
-- `IAtencionClientes`, `IVentas`, `IListaPersonalizada`: interfaces especializadas según rol
-
----
-
 ## 🧩 Tecnologías y herramientas utilizadas
 
 - 🌐 HTML, CSS y JavaScript
